@@ -24,7 +24,7 @@ module "psc_producer" {
   depends_on = [
     google_project.spoke-project
   ]
-  source = "github.com/Ps3ud-0nym/tf-module-psc-producer.git"
+  source = "github.com/Ps3ud-0nym/psc-producer-module.git"
 
   project_id                          = var.project_id
   primary_region                      = var.primary_region

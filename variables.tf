@@ -3,6 +3,10 @@ variable "vpc_name" {
   description = "vpc_name"
   default     = ""
 }
+variable "organization_id" {
+  description = "Organisation ID"
+  default     = ""
+}
 variable "project_name" {
   description = "GCP Project Name"
   default     = ""

@@ -1,8 +1,9 @@
 ## GCP Project vars
-project_id = "prj-spoke-1"
-project_name = "prj-spoke-1"
+project_id = "prj-spoke-01"
+project_name = "prj-spoke-01"
 primary_region = "europe-west2"
-billing_account_id = "01BFB4-129202-2F94CA"
+billing_account_id = "018E2D-A0EC61-C2C865"
+organization_id = "706581358019"
 
 
 ## VPC vars

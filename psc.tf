@@ -22,7 +22,7 @@ module "psc_subnet" {
 module "psc_producer" {
   
   depends_on = [
-    google_project.spoke-project
+    module.project_factory
   ]
   source = "github.com/Ps3ud-0nym/psc-producer-module.git"
 
